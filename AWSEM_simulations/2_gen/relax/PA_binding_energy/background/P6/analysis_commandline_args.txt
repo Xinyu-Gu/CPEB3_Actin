@@ -1,0 +1,1 @@
+mm_analysis.py P6 --thread 12 -t P6.pdb
