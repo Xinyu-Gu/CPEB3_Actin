@@ -1,0 +1,1 @@
+mm_analysis.py P10 --thread 12 -t P10.pdb
