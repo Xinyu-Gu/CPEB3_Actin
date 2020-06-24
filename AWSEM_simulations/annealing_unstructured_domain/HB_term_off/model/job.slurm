@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=xg23
+#SBATCH -o trial.out
+#SBATCH -e trial.err
+#SBATCH --ntasks=1
+#SBATCH --partition=scavenge
+#SBATCH --time=04:00:00
+#SBATCH --mem=10G
+#SBATCH --export=ALL
+#SBATCH --gres=gpu:volta:1
+
+
+python3 mm_run.py cpeb3-449-716 -m 1 -s 8e6
