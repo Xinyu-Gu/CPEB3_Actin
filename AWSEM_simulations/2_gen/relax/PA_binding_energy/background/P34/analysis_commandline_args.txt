@@ -1,0 +1,1 @@
+mm_analysis.py P34 --thread 12 -t P34.pdb
