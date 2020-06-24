@@ -1,0 +1,7 @@
+[Target]
+sp|Q
+
+[Memories]
+/scratch/xg23/CPEB3/fraglib/actin.gro 1 1 375 20
+/scratch/xg23/CPEB3/fraglib/actin.gro 376 1 375 20
+/scratch/xg23/CPEB3/fraglib/actin.gro 751 1 375 20
